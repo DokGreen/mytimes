@@ -11,6 +11,7 @@
 /*  position: fixed; testing the container height */
 }
 
+/*Navigation*/
 #nav {
   display: flex;
   justify-content: space-around;
@@ -33,39 +34,45 @@
   color: black;
 }
 
-
+/*Main Content Area*/
 .container {
   display: flex;
   justify-content: space-around;
   font-family: Georgia;
   font-size: 17px;
   color: black;
-  border: 1px solid black;
 }
 
 #large {
   width: 630px;
   display: flex;
   flex-direction:column;
-  border: 1px solid black;
 }
 
 #medium {
   width: 300px;
   display: flex;
   flex-direction:column;
-  border: 1px solid black;
 }
 
 #small {
   width: 240px;
   display: flex;
   flex-direction:column;
-  border: 1px solid black;
 }
 
+#stories {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#stories div {
+  width: 300px;
+}
+
+
 .article {
-  border: 1px solid black;
 }
 
 #mainart, #firstart,
