@@ -8,7 +8,7 @@
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
-  position: fixed;
+/*  position: fixed; testing the container height */
 }
 
 #nav {
@@ -17,8 +17,11 @@
 }
 
 #logo {
+  width: 300px;
   display: flex;
+  padding: 0 20px;
   color: MediumAquamarine;
+  border: 1px solid black;
 }
 
 #nav li {
@@ -28,4 +31,29 @@
 
 #nav li a {
   color: black;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+
+#large {
+  width: 630px;
+  display: flex;
+  border: 1px solid black;
+}
+
+#medium {
+  width: 300px;
+  display: flex;
+  border: 1px solid black;
+}
+
+#small {
+  width: 240px;
+  display: flex;
+  border: 1px solid black;
 }
