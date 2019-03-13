@@ -37,6 +37,9 @@
 .container {
   display: flex;
   justify-content: space-around;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
   border: 1px solid black;
 }
 
@@ -63,4 +66,34 @@
 
 .article {
   border: 1px solid black;
+}
+
+#mainart, #firstart,
+#secondart, #thirdart {
+  height: 300px; /*height of all imgs*/
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#mainart p {
+  font-size: 40px;
+}
+
+#mainart {
+  background-image: url("imgs/img-story-main.png");
+}
+
+#firstart {
+  background-image: url("imgs/img-story-1.png");
+}
+
+#secondart {
+  background-image: url("imgs/img-story-2.png");
+}
+
+#thirdart {
+  background-image: url("imgs/img-story-3.png");
 }
