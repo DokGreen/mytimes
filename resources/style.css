@@ -43,17 +43,24 @@
 #large {
   width: 630px;
   display: flex;
+  flex-direction:column;
   border: 1px solid black;
 }
 
 #medium {
   width: 300px;
   display: flex;
+  flex-direction:column;
   border: 1px solid black;
 }
 
 #small {
   width: 240px;
   display: flex;
+  flex-direction:column;
+  border: 1px solid black;
+}
+
+.article {
   border: 1px solid black;
 }
