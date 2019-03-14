@@ -59,6 +59,7 @@
   width: 240px;
   display: flex;
   flex-direction:column;
+  align-items: center;
 }
 
 #stories {
@@ -103,4 +104,44 @@
 
 #thirdart {
   background-image: url("imgs/img-story-3.png");
+}
+
+.centerart {
+  text-align: center;
+}
+
+#nbart {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#nb {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#bites ul {
+  list-style: none;
+}
+
+#bites ul li {
+  margin: 20px 0;
+}
+
+#bites ul li:first-child {
+  margin-top: 0px;
+}
+
+#bites ul li:last-child {
+  margin-bottom: 0px;
+}
+
+#bites {
+  display: flex;
+  flex-direction: column;
+  background-color: whiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray
 }
