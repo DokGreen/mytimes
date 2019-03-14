@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #header {
   width: 100%;
   display: flex;
@@ -22,7 +27,6 @@
   display: flex;
   padding: 0 20px;
   color: MediumAquamarine;
-  border: 1px solid black;
 }
 
 .nav li {
@@ -38,6 +42,7 @@
 .container {
   display: flex;
   justify-content: space-around;
+  margin: 10px 0;
   font-family: Georgia;
   font-size: 17px;
   color: black;
@@ -53,6 +58,7 @@
   width: 300px;
   display: flex;
   flex-direction:column;
+  justify-content: space-around;
 }
 
 #small {
@@ -147,8 +153,21 @@
 }
 
 #footer {
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+#times {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 15px;
+  border-right: solid white 1px;
 }
