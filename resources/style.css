@@ -132,6 +132,10 @@
   margin-bottom: 20px;
 }
 
+#mobilebite {
+  display: none;
+}
+
 #nb {
   font-size: 16px;
   font-weight: bold;
@@ -217,7 +221,7 @@
   }
 }
 
-@media only screen and (max-width: 597px) {
+@media only screen and (max-width: 616px) {
   body {
     background-color: red;
   }
@@ -225,12 +229,34 @@
   #stories {
     flex-direction: column;
     flex-wrap: nowrap;
+    padding: 0;
     border: solid green;
   }
   #sect1, #sect2 {
-    width: 100%;
-    justify-content: space-around;
-    display: flex;
+    width: 800px; /*Fix this*/
     border: solid yellow;
+  }
+
+  #small {
+    justify-content: center;
+    border: solid green;
+  }
+
+  #normbite {
+    display: none;
+  }
+
+  #nbart {
+    align-items: center;
+  }
+
+  #mobilebite {
+    height: 10%;
+    width: 10%;
+    display: inline-block;
+  }
+
+  #bites {
+    text-align: center;
   }
 }
