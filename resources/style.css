@@ -182,8 +182,8 @@
   padding-right: 15px;
   border-right: solid white 1px;
 }
-/*---------------------------------------mobile*/
-@media only screen and (min-width: 480px) and (max-width: 690px) {
+/*---------------------------------------breakpoint1*/
+@media only screen and (max-width: 690px) {
   body {
     background-color: ;
   }
@@ -215,5 +215,22 @@
   #article1 {
     margin: 0 10px;
   }
+}
 
+@media only screen and (max-width: 597px) {
+  body {
+    background-color: red;
+  }
+
+  #stories {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: solid green;
+  }
+  #sect1, #sect2 {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    border: solid yellow;
+  }
 }
