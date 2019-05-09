@@ -23,7 +23,7 @@
 }
 
 #logo {
-  width: 300px;
+  width: 100px;
   display: flex;
   padding: 0 20px;
   color: MediumAquamarine;
@@ -221,6 +221,10 @@
 }
 
 @media only screen and (max-width: 616px) {
+  #header {
+    justify-content: space-between;
+  }
+
   #stories {
     flex-direction: column;
     flex-wrap: nowrap;
@@ -271,11 +275,13 @@
   }
 
   #sect2 .article {
-    height: 50%;
+    height: 100px;
     width: 50%;
   }
 
   #sect2 .article p {
+    font-size: 20px;
+    padding-top: 30px;
     background-color: rgba(0, 0, 0, 0.6);
   }
 
