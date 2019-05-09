@@ -59,7 +59,6 @@
   width: 25%;
   display: flex;
   flex-direction:column;
-  justify-content: space-around;
   align-items: center;
 }
 
@@ -76,7 +75,7 @@
   justify-content: space-around;
 }
 
-#stories div {
+#sect1, #sect2 {
   width: 300px;
 }
 
@@ -222,24 +221,15 @@
 }
 
 @media only screen and (max-width: 616px) {
-  body {
-    background-color: red;
-  }
-
   #stories {
     flex-direction: column;
     flex-wrap: nowrap;
-    padding: 0;
-    border: solid green;
+    justify-content: space-around;
   }
-  #sect1, #sect2 {
-    width: 800px; /*Fix this*/
-    border: solid yellow;
-  }
+
 
   #small {
     justify-content: center;
-    border: solid green;
   }
 
   #normbite {
@@ -259,4 +249,34 @@
   #bites {
     text-align: center;
   }
+
+  #sect1, #sect2 {
+    width: 95%;
+    margin: 15px 10px 0 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #sect2 {
+    align-items: flex-end;
+    flex-direction: column;
+  }
+
+  #sect1 {
+    justify-content: space-between;
+  }
+
+  #sect1 .article {
+    width: 48%;
+  }
+
+  #sect2 .article {
+    height: 50%;
+    width: 50%;
+  }
+
+  #sect2 .article p {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
 }
