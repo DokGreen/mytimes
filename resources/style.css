@@ -71,7 +71,7 @@
 
 #stories {
   display:flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-around;
 }
 
@@ -106,7 +106,7 @@
 }
 
 #firstart {
-  width: 300px;
+  width: 19rem;
   background-image: url("imgs/img-story-1.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -185,11 +185,9 @@
   padding-right: 15px;
   border-right: solid white 1px;
 }
+
 /*---------------------------------------breakpoint1*/
-@media only screen and (max-width: 690px) {
-  body {
-    background-color: ;
-  }
+@media only screen and (max-width: 1015px) {
 
   #header {
     box-sizing: border-box;
@@ -215,12 +213,27 @@
     justify-content: space-around;
   }
 
+  #stories {
+    flex-direction: column;
+  }
+
+  #sect1, #sect2 {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #sect1 .article, #sect2 .article {
+    width: 300px;
+  }
+
   #article1 {
     margin: 0 10px;
   }
 }
 
-@media only screen and (max-width: 616px) {
+
+@media only screen and (max-width: 700px) {
   #header {
     justify-content: space-between;
   }
@@ -230,7 +243,6 @@
     flex-wrap: nowrap;
     justify-content: space-around;
   }
-
 
   #small {
     justify-content: center;
